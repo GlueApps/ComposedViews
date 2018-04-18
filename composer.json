@@ -1,10 +1,13 @@
 {
-    "name": "andaniel05/composed-views",
+    "name": "glueapps/composed-views",
     "license": "MIT",
     "authors": [
         {
-            "name": "Andy D. Navarro Taño",
+            "name": "Andy Daniel Navarro Taño",
             "email": "andaniel05@gmail.com"
+        },
+        {
+            "name": "GlueApps Community"
         }
     ],
     "require": {
@@ -17,8 +20,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Andaniel05\\ComposedViews\\": "src/",
-            "Andaniel05\\ComposedViews\\Tests\\": "tests/"
+            "GlueApps\\ComposedViews\\": "src/",
+            "GlueApps\\ComposedViews\\Tests\\": "tests/"
         }
     }
 }
