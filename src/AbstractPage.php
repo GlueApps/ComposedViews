@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Andaniel05\ComposedViews;
+namespace GlueApps\ComposedViews;
 
-use Andaniel05\ComposedViews\Event\FilterAssetsEvent;
-use Andaniel05\ComposedViews\Asset\AssetsTrait;
-use Andaniel05\ComposedViews\Asset\AssetInterface;
-use Andaniel05\ComposedViews\Asset\UriInterface;
-use Andaniel05\ComposedViews\Traits\CloningTrait;
-use Andaniel05\ComposedViews\Exception\AssetNotFoundException;
-use Andaniel05\ComposedViews\Exception\ComponentNotFoundException;
-use Andaniel05\ComposedViews\Component\ComponentInterface;
-use Andaniel05\ComposedViews\Component\Sidebar;
-use Andaniel05\ComposedViews\Component\SidebarInterface;
-use Andaniel05\ComposedViews\Component\ComponentTreeTrait;
+use GlueApps\ComposedViews\Event\FilterAssetsEvent;
+use GlueApps\ComposedViews\Asset\AssetsTrait;
+use GlueApps\ComposedViews\Asset\AssetInterface;
+use GlueApps\ComposedViews\Asset\UriInterface;
+use GlueApps\ComposedViews\Traits\CloningTrait;
+use GlueApps\ComposedViews\Exception\AssetNotFoundException;
+use GlueApps\ComposedViews\Exception\ComponentNotFoundException;
+use GlueApps\ComposedViews\Component\ComponentInterface;
+use GlueApps\ComposedViews\Component\Sidebar;
+use GlueApps\ComposedViews\Component\SidebarInterface;
+use GlueApps\ComposedViews\Component\ComponentTreeTrait;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 

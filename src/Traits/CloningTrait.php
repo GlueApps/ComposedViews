@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Andaniel05\ComposedViews\Traits;
+namespace GlueApps\ComposedViews\Traits;
 
 use DeepCopy\DeepCopy;
 

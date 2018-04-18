@@ -1,11 +1,11 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Asset;
+namespace GlueApps\ComposedViews\Tests\Asset;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\ComposedViews\Asset\AbstractAsset;
-use Andaniel05\ComposedViews\Asset\AssetInterface;
-use Andaniel05\ComposedViews\HtmlElement\HtmlElement;
+use GlueApps\ComposedViews\Asset\AbstractAsset;
+use GlueApps\ComposedViews\Asset\AssetInterface;
+use GlueApps\ComposedViews\HtmlElement\HtmlElement;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

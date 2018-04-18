@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Andaniel05\ComposedViews\Component;
+namespace GlueApps\ComposedViews\Component;
 
-use Andaniel05\ComposedViews\PageInterface;
-use Andaniel05\ComposedViews\PageEvents;
-use Andaniel05\ComposedViews\Asset\AssetsTrait;
-use Andaniel05\ComposedViews\Event\BeforeInsertionEvent;
-use Andaniel05\ComposedViews\Event\AfterInsertionEvent;
-use Andaniel05\ComposedViews\Event\BeforeDeletionEvent;
-use Andaniel05\ComposedViews\Event\AfterDeletionEvent;
-use Andaniel05\ComposedViews\Traits\CloningTrait;
+use GlueApps\ComposedViews\PageInterface;
+use GlueApps\ComposedViews\PageEvents;
+use GlueApps\ComposedViews\Asset\AssetsTrait;
+use GlueApps\ComposedViews\Event\BeforeInsertionEvent;
+use GlueApps\ComposedViews\Event\AfterInsertionEvent;
+use GlueApps\ComposedViews\Event\BeforeDeletionEvent;
+use GlueApps\ComposedViews\Event\AfterDeletionEvent;
+use GlueApps\ComposedViews\Traits\CloningTrait;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

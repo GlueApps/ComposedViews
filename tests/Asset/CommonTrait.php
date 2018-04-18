@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Asset;
+namespace GlueApps\ComposedViews\Tests\Asset;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

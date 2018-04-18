@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Component;
+namespace GlueApps\ComposedViews\Component;
 
-use Andaniel05\ComposedViews\PageInterface;
-use Andaniel05\ComposedViews\HtmlElement\HtmlInterface;
+use GlueApps\ComposedViews\PageInterface;
+use GlueApps\ComposedViews\HtmlElement\HtmlInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

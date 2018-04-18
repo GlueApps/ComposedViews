@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Andaniel05\ComposedViews\Builder\Event;
+namespace GlueApps\ComposedViews\Builder\Event;
 
 use Symfony\Component\EventDispatcher\Event;
-use Andaniel05\ComposedViews\Builder\BuilderInterface;
+use GlueApps\ComposedViews\Builder\BuilderInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

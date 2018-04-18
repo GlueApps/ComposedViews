@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Asset;
+namespace GlueApps\ComposedViews\Tests\Asset;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\ComposedViews\Asset\AssetsTrait;
-use Andaniel05\ComposedViews\Asset\AbstractAsset;
+use GlueApps\ComposedViews\Asset\AssetsTrait;
+use GlueApps\ComposedViews\Asset\AbstractAsset;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

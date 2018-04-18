@@ -1,14 +1,14 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Component;
+namespace GlueApps\ComposedViews\Tests\Component;
 
-use Andaniel05\ComposedViews\AbstractPage;
-use Andaniel05\ComposedViews\PageEvents;
-use Andaniel05\ComposedViews\Event\BeforeInsertionEvent;
-use Andaniel05\ComposedViews\Event\AfterInsertionEvent;
-use Andaniel05\ComposedViews\Event\BeforeDeletionEvent;
-use Andaniel05\ComposedViews\Event\AfterDeletionEvent;
-use Andaniel05\ComposedViews\Component\AbstractComponent;
+use GlueApps\ComposedViews\AbstractPage;
+use GlueApps\ComposedViews\PageEvents;
+use GlueApps\ComposedViews\Event\BeforeInsertionEvent;
+use GlueApps\ComposedViews\Event\AfterInsertionEvent;
+use GlueApps\ComposedViews\Event\BeforeDeletionEvent;
+use GlueApps\ComposedViews\Event\AfterDeletionEvent;
+use GlueApps\ComposedViews\Component\AbstractComponent;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Builder;
+namespace GlueApps\ComposedViews\Tests\Builder;
 
-use Andaniel05\ComposedViews\Component\AbstractComponent;
+use GlueApps\ComposedViews\Component\AbstractComponent;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

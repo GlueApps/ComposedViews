@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Traits;
+namespace GlueApps\ComposedViews\Tests\Traits;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\ComposedViews\Traits\CloningTrait;
+use GlueApps\ComposedViews\Traits\CloningTrait;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

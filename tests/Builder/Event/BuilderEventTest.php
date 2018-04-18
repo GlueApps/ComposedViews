@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Builder\Event;
+namespace GlueApps\ComposedViews\Tests\Builder\Event;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\ComposedViews\Builder\BuilderInterface;
-use Andaniel05\ComposedViews\Builder\Event\BuilderEvent;
+use GlueApps\ComposedViews\Builder\BuilderInterface;
+use GlueApps\ComposedViews\Builder\Event\BuilderEvent;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

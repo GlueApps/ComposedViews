@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Andaniel05\ComposedViews\HtmlElement;
+namespace GlueApps\ComposedViews\HtmlElement;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Builder;
+namespace GlueApps\ComposedViews\Tests\Builder;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\ComposedViews\Builder\BuilderInterface;
-use Andaniel05\ComposedViews\Builder\Builder;
+use GlueApps\ComposedViews\Builder\BuilderInterface;
+use GlueApps\ComposedViews\Builder\Builder;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 

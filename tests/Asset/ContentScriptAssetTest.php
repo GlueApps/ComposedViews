@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Asset;
+namespace GlueApps\ComposedViews\Tests\Asset;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\ComposedViews\Asset\ContentScriptAsset;
+use GlueApps\ComposedViews\Asset\ContentScriptAsset;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

@@ -1,11 +1,11 @@
 <?php
 
-namespace Andaniel05\ComposedViews;
+namespace GlueApps\ComposedViews;
 
-use Andaniel05\ComposedViews\HtmlElement\HtmlInterface;
-use Andaniel05\ComposedViews\Component\ComponentInterface;
-use Andaniel05\ComposedViews\Component\SidebarInterface;
-use Andaniel05\ComposedViews\Asset\AssetInterface;
+use GlueApps\ComposedViews\HtmlElement\HtmlInterface;
+use GlueApps\ComposedViews\Component\ComponentInterface;
+use GlueApps\ComposedViews\Component\SidebarInterface;
+use GlueApps\ComposedViews\Asset\AssetInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 /**

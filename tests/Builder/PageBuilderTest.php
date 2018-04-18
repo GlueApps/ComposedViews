@@ -1,11 +1,11 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Builder;
+namespace GlueApps\ComposedViews\Tests\Builder;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\ComposedViews\Builder\PageBuilder;
-use Andaniel05\ComposedViews\PageInterface;
-use Andaniel05\ComposedViews\AbstractPage;
+use GlueApps\ComposedViews\Builder\PageBuilder;
+use GlueApps\ComposedViews\PageInterface;
+use GlueApps\ComposedViews\AbstractPage;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
@@ -23,7 +23,7 @@ class PageBuilderTest extends TestCase
 
     public function testCreateAnPageInstanceOfClassAttribute()
     {
-        $xml = '<page class="Andaniel05\ComposedViews\Tests\Builder\Page"></page>';
+        $xml = '<page class="GlueApps\ComposedViews\Tests\Builder\Page"></page>';
 
         $page = $this->builder->build($xml);
 
@@ -34,7 +34,7 @@ class PageBuilderTest extends TestCase
     {
         $basePath = uniqid();
         $xml = <<<XML
-<page class="Andaniel05\ComposedViews\Tests\Builder\Page"
+<page class="GlueApps\ComposedViews\Tests\Builder\Page"
       base-path="{$basePath}"></page>
 XML;
         $page = $this->builder->build($xml);
@@ -54,7 +54,7 @@ XML;
 
     /**
      * @dataProvider providerInvalidClass
-     * @expectedException Andaniel05\ComposedViews\Builder\Exception\InvalidPageClassException
+     * @expectedException GlueApps\ComposedViews\Builder\Exception\InvalidPageClassException
      */
     public function testThrowLostClassAttributeException($xml)
     {
@@ -65,7 +65,7 @@ XML;
     {
         $id = uniqid('comp');
         $xml = <<<XML
-<page class="Andaniel05\ComposedViews\Tests\Builder\Page">
+<page class="GlueApps\ComposedViews\Tests\Builder\Page">
     <sidebar id="sidebar1">
         <component id="{$id}"></component>
     </sidebar>
@@ -84,7 +84,7 @@ XML;
     public function testPageTagPopulation2()
     {
         $xml = <<<XML
-<page class="Andaniel05\ComposedViews\Tests\Builder\Page">
+<page class="GlueApps\ComposedViews\Tests\Builder\Page">
 
     <sidebar id="sidebar1">
         <component id="component1">
@@ -132,7 +132,7 @@ XML;
     }
 
     /**
-     * @expectedException Andaniel05\ComposedViews\Builder\Exception\InvalidPageException
+     * @expectedException GlueApps\ComposedViews\Builder\Exception\InvalidPageException
      */
     public function testBuildPageThrowInvalidPageExceptionIfBuildResultIsNotAnInstanceOfPageInterface()
     {

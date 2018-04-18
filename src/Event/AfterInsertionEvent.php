@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Andaniel05\ComposedViews\Event;
+namespace GlueApps\ComposedViews\Event;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

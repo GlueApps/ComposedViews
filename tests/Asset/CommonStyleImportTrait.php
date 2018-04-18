@@ -1,8 +1,8 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Asset;
+namespace GlueApps\ComposedViews\Tests\Asset;
 
-use Andaniel05\ComposedViews\Asset\UriInterface;
+use GlueApps\ComposedViews\Asset\UriInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

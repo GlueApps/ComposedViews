@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Andaniel05\ComposedViews\Asset;
+namespace GlueApps\ComposedViews\Asset;
 
-use Andaniel05\ComposedViews\HtmlElement\HtmlElement;
+use GlueApps\ComposedViews\HtmlElement\HtmlElement;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

@@ -1,14 +1,14 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests;
+namespace GlueApps\ComposedViews\Tests;
 
-use Andaniel05\ComposedViews\AbstractPage;
-use Andaniel05\ComposedViews\PageEvents;
-use Andaniel05\ComposedViews\Event\FilterAssetsEvent;
-use Andaniel05\ComposedViews\Component\AbstractComponent;
-use Andaniel05\ComposedViews\Component\Sidebar;
-use Andaniel05\ComposedViews\Asset\AbstractAsset;
-use Andaniel05\ComposedViews\Asset\ScriptAsset;
+use GlueApps\ComposedViews\AbstractPage;
+use GlueApps\ComposedViews\PageEvents;
+use GlueApps\ComposedViews\Event\FilterAssetsEvent;
+use GlueApps\ComposedViews\Component\AbstractComponent;
+use GlueApps\ComposedViews\Component\Sidebar;
+use GlueApps\ComposedViews\Asset\AbstractAsset;
+use GlueApps\ComposedViews\Asset\ScriptAsset;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
@@ -881,7 +881,7 @@ class AbstractPageTest extends TestCase
     }
 
     /**
-     * @expectedException Andaniel05\ComposedViews\Exception\AssetNotFoundException
+     * @expectedException GlueApps\ComposedViews\Exception\AssetNotFoundException
      */
     public function testGetAssetsThrowAssetNotFoundExceptionWhenADependencyDoesNotFind()
     {
@@ -1018,7 +1018,7 @@ class AbstractPageTest extends TestCase
     }
 
     /**
-     * @expectedException Andaniel05\ComposedViews\Exception\ComponentNotFoundException
+     * @expectedException GlueApps\ComposedViews\Exception\ComponentNotFoundException
      */
     public function testAppendComponent_ThrowComponentNotFoundException()
     {
@@ -1262,7 +1262,7 @@ class AbstractPageTest extends TestCase
     {
         $group = uniqid();
 
-        $scriptAsset = new \Andaniel05\ComposedViews\Asset\ScriptAsset('asset', '');
+        $scriptAsset = new \GlueApps\ComposedViews\Asset\ScriptAsset('asset', '');
         $scriptAsset->addGroup($group);
 
         $this->page->addAsset($scriptAsset);
@@ -1311,7 +1311,7 @@ class AbstractPageTest extends TestCase
     }
 
     /**
-     * @expectedException Andaniel05\ComposedViews\Exception\ComponentNotFoundException
+     * @expectedException GlueApps\ComposedViews\Exception\ComponentNotFoundException
      */
     public function testRenderSidebarThrowComponentNotFoundException()
     {
@@ -1339,7 +1339,7 @@ class AbstractPageTest extends TestCase
     }
 
     /**
-     * @expectedException Andaniel05\ComposedViews\Exception\AssetNotFoundException
+     * @expectedException GlueApps\ComposedViews\Exception\AssetNotFoundException
      */
     public function testRenderAssetThrowAssetNotFoundException()
     {

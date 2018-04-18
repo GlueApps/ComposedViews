@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\HtmlElement;
+namespace GlueApps\ComposedViews\Tests\HtmlElement;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\ComposedViews\HtmlElement\HtmlElement;
-use Andaniel05\ComposedViews\HtmlElement\HtmlElementInterface;
+use GlueApps\ComposedViews\HtmlElement\HtmlElement;
+use GlueApps\ComposedViews\HtmlElement\HtmlElementInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

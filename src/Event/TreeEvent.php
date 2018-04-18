@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Andaniel05\ComposedViews\Event;
+namespace GlueApps\ComposedViews\Event;
 
 use Symfony\Component\EventDispatcher\Event;
-use Andaniel05\ComposedViews\Component\AbstractComponent;
+use GlueApps\ComposedViews\Component\AbstractComponent;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

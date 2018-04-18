@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Builder;
+namespace GlueApps\ComposedViews\Builder;
 
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 

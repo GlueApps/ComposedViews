@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Component;
+namespace GlueApps\ComposedViews\Tests\Component;
 
-use Andaniel05\ComposedViews\Component\AbstractComponent;
-use Andaniel05\ComposedViews\Component\ComponentTreeTrait;
+use GlueApps\ComposedViews\Component\AbstractComponent;
+use GlueApps\ComposedViews\Component\ComponentTreeTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

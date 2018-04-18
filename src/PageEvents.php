@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\ComposedViews;
+namespace GlueApps\ComposedViews;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

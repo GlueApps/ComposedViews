@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\ComposedViews\Tests\Component;
+namespace GlueApps\ComposedViews\Tests\Component;
 
-use Andaniel05\ComposedViews\Component\AbstractComponent;
-use Andaniel05\ComposedViews\Component\Sidebar;
+use GlueApps\ComposedViews\Component\AbstractComponent;
+use GlueApps\ComposedViews\Component\Sidebar;
 use PHPUnit\Framework\TestCase;
 
 /**
